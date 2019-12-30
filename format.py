@@ -12,5 +12,5 @@ for l in lines :
        start  = words[12]
        end    = words[15]
        print(chrome+' '+start+' '+end)
-       print(chrome+' '+start+' '+end, file = fw)
+       print(chrome+'\t'+start+'\t'+end, file = fw)
 fw.close()
